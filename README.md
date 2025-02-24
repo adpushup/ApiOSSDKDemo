@@ -2,19 +2,19 @@
 
 ## **Get started -**
 
-    **Follow this guide to get started with Ap Mobile SDK.**
+  Follow this guide to get started with Ap Mobile SDK.
 
-    **The Ap Mobile SDK provides ad formats like Smart Interstitial and Smart Rewarded Ads.**
+  The Ap Mobile SDK provides ad formats like Smart Interstitial and Smart Rewarded Ads.
 
-    **The following document shows how to integrate Ap Mobile SDK in your iOS App.**
+  The following document shows how to integrate Ap Mobile SDK in your iOS App.
 
-    **You can use our demo apps as a reference project.**
+  You can use our demo apps as a reference project.
 
 ## **Before you begin -**
 
-    **iOS version 14.0 and higher.**
+  iOS version 14.0 and higher.
 
-    **Xcode version 15.3 or higher.**
+  Xcode version 15.3 or higher.
 
 Get the following IDs from AdPushup:
 
@@ -210,7 +210,8 @@ Update info.plist file.
 
 - Importing from Cocoapods.
     - Just add this command in your Podfile.
-    pod ‘ApMobileSDK’
+      
+          pod ‘ApMobileSDK’
     - Then from the command line run:
     
           `pod install --repo-update`
@@ -285,5 +286,5 @@ Note : Replace “testId” with the App Id provided by Adpushup.
 
 ## Ad Formats
 
-- Interstitial Ads
-- Rewarded Ads
+- Interstitial Ads - https://github.com/adpushup/ApiOSSDKDemo/blob/docs/InterstitialAdExample/README.md
+- Rewarded Ads - https://github.com/adpushup/ApiOSSDKDemo/blob/docs/RewardedAdExample/README.md
