@@ -1,0 +1,11 @@
+framework module ApMobileSDK {
+  umbrella header "ApMobileSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module ApMobileSDK.Swift {
+  header "ApMobileSDK-Swift.h"
+  requires objc
+}
