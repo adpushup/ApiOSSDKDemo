@@ -240,7 +240,7 @@ Note : Replace “testId” with the App Id provided by Adpushup.
     @main
     class AppDelegate: UIResponder, UIApplicationDelegate  {
         func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-            ApAppSDK.initialise(id: "testId")
+            ApAppSDK.initialise(id: "testId") //testId will be provided by Adpushup
             // Override point for customisation after application launch.
             return true
         }
@@ -258,7 +258,7 @@ Note : Replace “testId” with the App Id provided by Adpushup.
         var body: some Scene {
             WindowGroup {
                 ContentView().onAppear {
-                    ApAppSDK.initialise(id: "testId")
+                    ApAppSDK.initialise(id: "testId") //testId will be provided by Adpushup
                 }
             }
         }
@@ -277,7 +277,7 @@ Note : Replace “testId” with the App Id provided by Adpushup.
     
         // Initialize ApMobileSDK here
     
-        [ApAppSDK initialiseWithId:@"testId"];
+        [ApAppSDK initialiseWithId:@"testId"];  //testId will be provided by Adpushup
         return YES;
     
     }

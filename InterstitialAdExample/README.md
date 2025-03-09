@@ -10,7 +10,7 @@
     - Swift example -
         
         ```swift
-        ApMobileSDK.showInterstitialAd(viewController: **self**, apPlacementID: "testPlacement", apInterstitialListener: **self**)
+        ApMobileSDK.showInterstitialAd(viewController: self, apPlacementID: "testPlacement", apInterstitialListener: self) //testPlacement will be provided by Adpushup
         ```
         
     - SwiftUI example -
@@ -21,13 +21,14 @@
                let rootViewController = windowScene.windows.first(where: { $0.isKeyWindow })?.rootViewController {
                ApAppSDK.showInterstitialAd(viewController: rootViewController, apPlacementID: "testPlacement", apInterstitialListener: self)
             }
-        }
+        }//testPlacement will be provided by Adpushup
         ```
+        
         
     - Objective C example -
         
         ```objectivec
-        [ApAppSDK showInterstitialAdWithViewController:self apPlacementID:@"testPlacement" apInterstitialListener:self];
+        [ApAppSDK showInterstitialAdWithViewController:self apPlacementID:@"testPlacement" apInterstitialListener:self]; //testPlacement will be provided by Adpushup
         ```
         
 

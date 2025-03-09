@@ -9,25 +9,25 @@
         - Swift example -
             
             ```swift
-            if ApAppSDK.isRewardedAdReady(apPlacementID: “yourPlacementID”) {
+            if ApAppSDK.isRewardedAdReady(apPlacementID: testPlacement) {
                     //Code to show rewarded ad.
-            }
+            } //testPlacement will be provided by Adpushup
             ```
             
         - Objective C -
             
             ```objectivec
-             if ([ApAppSDK isRewardedAdReadyWithApPlacementID:@"yourPlacementID"]) {
+             if ([ApAppSDK isRewardedAdReadyWithApPlacementID:@"testPlacement"]) {
                     //Code to show rewarded ad.
-            }
+            } //testPlacement will be provided by Adpushup
             ```
             
         - SwiftUI -
             
             ```swift
-            if ApAppSDK.isRewardedAdReady(apPlacementID: "yourPlacementID") {
+            if ApAppSDK.isRewardedAdReady(apPlacementID: "testPlacement") {
                     //Code to show rewarded ad.
-            }
+            } //testPlacement will be provided by Adpushup
             ```
             
         
@@ -35,13 +35,13 @@
         - Swift example -
             
             ```swift
-            ApAppSDK.showRewardedAd(viewController: **self**, apPlacementID: "testPlacement", apRewardedListener: **self**)
+            ApAppSDK.showRewardedAd(viewController: self, apPlacementID: "testPlacement", apRewardedListener: self) //testPlacement will be provided by Adpushup
             ```
             
         - Objective C -
             
             ```objectivec
-            [ApAppSDK showRewardedAdWithViewController:self apPlacementID:@"testPlacement" apRewardedlListener:self];
+            [ApAppSDK showRewardedAdWithViewController:self apPlacementID:@"testPlacement" apRewardedlListener:self]; //testPlacement will be provided by Adpushup
             ```
             
         - SwiftUI -
@@ -53,7 +53,7 @@
                   let rootViewController = windowScene.windows.first(where: { $0.isKeyWindow })?.rootViewController {
                         ApAppSDK.showRewardedAd(viewController: rootViewController, apPlacementID: "testPlacement", apRewardedListener: self)
                     }
-            }
+            }  //testPlacement will be provided by Adpushup
             ```
             
     
