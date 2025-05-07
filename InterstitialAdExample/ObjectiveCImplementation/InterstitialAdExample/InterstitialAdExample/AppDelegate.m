@@ -38,30 +38,3 @@
 
 
 @end
-
-
-//zip -r "./build/ApMobileSDK.xcframework.zip" "./build/ApMobileSDK.xcframework"
-//
-//xcodebuild -create-xcframework \
-//    -framework "./build/iOS.xcarchive/Products/Library/Frameworks/ApMobileSDK.framework" \
-//    -framework "./build/iOSSimulator.xcarchive/Products/Library/Frameworks/ApMobileSDK.framework" \
-//    -output "./build/ApMobileSDK.xcframework"
-//
-//xcodebuild archive \
-//    -scheme "ApMobileSDK" \
-//    -destination "generic/platform=iOS Simulator" \
-//    -archivePath "./build/iOSSimulator" \
-//    -sdk iphonesimulator \
-//    SKIP_INSTALL=NO \
-//    BUILD_LIBRARY_FOR_DISTRIBUTION=YES
-//
-//xcodebuild archive \
-//    -scheme "ApMobileSDK" \
-//    -destination "generic/platform=iOS" \
-//    -archivePath "./build/iOS" \
-//    -sdk iphoneos \
-//    SKIP_INSTALL=NO \
-//    BUILD_LIBRARY_FOR_DISTRIBUTION=YES
-//
-//mkdir ./build
-//rm -rf ./build
