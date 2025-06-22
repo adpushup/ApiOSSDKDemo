@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <ApMobileSDK/ApMobileSDK-Swift.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

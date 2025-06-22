@@ -1,8 +1,0 @@
- platform :ios, '14.0'
-
-target 'InterstitialAdExample' do
-  use_frameworks!
- 
-  pod 'ApMobileSDK', '~> 1.0'
-
-end

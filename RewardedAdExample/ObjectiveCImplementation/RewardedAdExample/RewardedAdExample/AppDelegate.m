@@ -6,7 +6,6 @@
 //
 
 #import "AppDelegate.h"
-#import "ApMobileSDK/ApMobileSDK.h"
 
 @interface AppDelegate ()
 
