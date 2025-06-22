@@ -29,7 +29,7 @@ Update info.plist file.
 - `GADApplicationIdentifier` key with a string value of your **Ad Manager** app ID(Provided by Adpushup) and of the form `ca-app-pub-################~##########`.
 - `SKAdNetworkItems` key with `SKAdNetworkIdentifier` values.
 
-   Example-info.plist - 
+   Example-info.plist - https://github.com/adpushup/ApiOSSDKDemo/blob/Docs/infoPlist.txt
     
 ## **Import SDK in the app.**
 
