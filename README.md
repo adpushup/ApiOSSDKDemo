@@ -109,11 +109,5 @@ Note : Replace “testId” with the App Id provided by Adpushup.
     
 
 ## Ad Formats
-
-- Interstitial Ads - https://github.com/adpushup/ApiOSSDKDemo/blob/docs/InterstitialAdExample/README.md
-- Rewarded Ads - https://github.com/adpushup/ApiOSSDKDemo/blob/docs/RewardedAdExample/README.md
-- App Open Ads - https://github.com/adpushup/ApiOSSDKDemo/blob/docs/AppOpenAdExample/README.md
-- Banner Ads - https://github.com/adpushup/ApiOSSDKDemo/blob/docs/BannerAdExample/README.md
-- Rewarded Interstitial Ads -  https://github.com/adpushup/ApiOSSDKDemo/blob/docs/RewardedInterstitialAdExample/README.md
-- Story Ads - https://github.com/adpushup/ApiOSSDKDemo/blob/docs/StoryAdExample/README.md
-- Native Ads - https://github.com/adpushup/ApiOSSDKDemo/blob/docs/NativeAdExample/README.md
+- [Interstitial Ads](InterstitialAdExample/README.md)
+- [Rewarded Ads](RewardedAdExample/README.md)
