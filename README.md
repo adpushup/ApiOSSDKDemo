@@ -26,186 +26,11 @@ Get the following IDs from AdPushup:
 
 Update info.plist file.
 
-- A `GADApplicationIdentifier` key with a string value of your **Ad Manager** app ID(Provided by Adpushup) and of the form `ca-app-pub-################~##########`.
-- A `SKAdNetworkItems` key with `SKAdNetworkIdentifier` values.
-    
-    ```jsx
-    <key>GADApplicationIdentifier</key>
-    <string>ca-app-pub-################~##########</string>
-    <key>SKAdNetworkItems</key>
-    <array>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>cstr6suwn9.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>4fzdc2evr5.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>2fnua5tdw4.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>ydx93a7ass.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>p78axxw29g.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>v72qych5uu.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>ludvb6z3bs.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>cp8zw746q7.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>3sh42y64q3.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>c6k4g5qg8m.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>s39g8k73mm.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>3qy4746246.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>hs6bdukanm.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>mlmmfzh3r3.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>v4nxqhlyqp.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>wzmmz9fp6w.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>su67r6k2v3.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>yclnxrl5pm.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>7ug5zh24hu.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>gta9lk7p23.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>vutu7akeur.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>y5ghdn5j9k.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>v9wttpbfk9.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>n38lu8286q.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>47vhws6wlr.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>kbd757ywx3.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>9t245vhmpl.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>a2p9lx4jpn.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>22mmun2rn5.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>4468km3ulz.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>2u9pt9hc89.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>8s468mfl3y.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>ppxm28t8ap.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>uw77j35x4d.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>pwa73g5rt2.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>578prtvx9j.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>4dzt52r2t5.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>tl55sbb4fm.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>e5fvkxwrpn.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>8c4e2ghe7u.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>3rd42ekr43.skadnetwork</string>
-      </dict>
-      <dict>
-        <key>SKAdNetworkIdentifier</key>
-        <string>3qcr597p9d.skadnetwork</string>
-      </dict>
-    </array>
-    ```
-    
+- `GADApplicationIdentifier` key with a string value of your **Ad Manager** app ID(Provided by Adpushup) and of the form `ca-app-pub-################~##########`.
+- `SKAdNetworkItems` key with `SKAdNetworkIdentifier` values.
 
+   Example-info.plist - https://github.com/adpushup/ApiOSSDKDemo/blob/Docs/infoPlist.txt
+    
 ## **Import SDK in the app.**
 
 - Importing from Cocoapods.
@@ -268,8 +93,7 @@ Note : Replace “testId” with the App Id provided by Adpushup.
 - Objective C example - Add the initialise function in App delegate application function.
     
     ```objectivec
-    #import "AppDelegate.h"
-    #import <ApMobileSDK/ApMobileSDK.h> 
+    #import "AppDelegate.h" 
     
     @implementation AppDelegate
     
@@ -288,3 +112,8 @@ Note : Replace “testId” with the App Id provided by Adpushup.
 
 - Interstitial Ads - https://github.com/adpushup/ApiOSSDKDemo/blob/docs/InterstitialAdExample/README.md
 - Rewarded Ads - https://github.com/adpushup/ApiOSSDKDemo/blob/docs/RewardedAdExample/README.md
+- App Open Ads - https://github.com/adpushup/ApiOSSDKDemo/blob/docs/AppOpenAdExample/README.md
+- Banner Ads - https://github.com/adpushup/ApiOSSDKDemo/blob/docs/BannerAdExample/README.md
+- Rewarded Interstitial Ads -  https://github.com/adpushup/ApiOSSDKDemo/blob/docs/RewardedInterstitialAdExample/README.md
+- Story Ads - https://github.com/adpushup/ApiOSSDKDemo/blob/docs/StoryAdExample/README.md
+- Native Ads - https://github.com/adpushup/ApiOSSDKDemo/blob/docs/NativeAdExample/README.md
