@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		910EBC782E04AFFC0023E595 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 910EBC772E04AFFC0023E595 /* GoogleMobileAds */; };
+		910EBC7B2E04B0080023E595 /* ApiOSSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 910EBC7A2E04B0080023E595 /* ApiOSSDK */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		91E71D772CEBEC450069729D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,25 +57,11 @@
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		9195D8C62D40A9270037F43A /* Exceptions for "RewardedAdExample" folder in "Embed Frameworks" phase from "RewardedAdExample" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			attributesByRelativePath = {
-				ApMobileSDK.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
-			};
-			buildPhase = 9195D8C52D40A9270037F43A /* Embed Frameworks */;
-			membershipExceptions = (
-				ApMobileSDK.xcframework,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		91E71D5D2CEBEC430069729D /* RewardedAdExample */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				91E71D882CEBEC450069729D /* Exceptions for "RewardedAdExample" folder in "RewardedAdExample" target */,
-				9195D8C62D40A9270037F43A /* Exceptions for "RewardedAdExample" folder in "Embed Frameworks" phase from "RewardedAdExample" target */,
 			);
 			path = RewardedAdExample;
 			sourceTree = "<group>";
@@ -92,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				910EBC7B2E04B0080023E595 /* ApiOSSDK in Frameworks */,
+				910EBC782E04AFFC0023E595 /* GoogleMobileAds in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +146,8 @@
 			);
 			name = RewardedAdExample;
 			packageProductDependencies = (
+				910EBC772E04AFFC0023E595 /* GoogleMobileAds */,
+				910EBC7A2E04B0080023E595 /* ApiOSSDK */,
 			);
 			productName = RewardedAdExample;
 			productReference = 91E71D5B2CEBEC430069729D /* RewardedAdExample.app */;
@@ -235,6 +230,10 @@
 			);
 			mainGroup = 91E71D522CEBEC430069729D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				910EBC762E04AFFC0023E595 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+				910EBC792E04B0080023E595 /* XCRemoteSwiftPackageReference "ApiOSSDK" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 91E71D5C2CEBEC430069729D /* Products */;
 			projectDirPath = "";
@@ -324,6 +323,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -351,6 +351,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -587,6 +588,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		910EBC762E04AFFC0023E595 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.13.0;
+			};
+		};
+		910EBC792E04B0080023E595 /* XCRemoteSwiftPackageReference "ApiOSSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adpushup/ApiOSSDK.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		910EBC772E04AFFC0023E595 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 910EBC762E04AFFC0023E595 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+		910EBC7A2E04B0080023E595 /* ApiOSSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 910EBC792E04B0080023E595 /* XCRemoteSwiftPackageReference "ApiOSSDK" */;
+			productName = ApiOSSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 91E71D532CEBEC430069729D /* Project object */;
 }

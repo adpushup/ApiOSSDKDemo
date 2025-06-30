@@ -6,7 +6,6 @@
 //
 
 #import "ViewController.h"
-#import "ApMobileSDK/ApMobileSDK.h"
 
 @interface ViewController () <ApRewardedListener>
 

@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <ApMobileSDK/ApMobileSDK.h>
+#import <ApMobileSDK/ApMobileSDK-Swift.h>
 
 @interface ViewController : UIViewController <ApRewardedListener>
 
